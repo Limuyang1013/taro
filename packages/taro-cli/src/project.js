@@ -128,6 +128,12 @@ class Project extends Creator {
     }, {
       name: 'Mobx 模板',
       value: 'mobx'
+    }, {
+      name: '云开发模板',
+      value: 'wxcloud'
+    }, {
+      name: '微信小程序插件模板',
+      value: 'wxplugin'
     }]
 
     if (typeof conf.template !== 'string') {
